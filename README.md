@@ -1,5 +1,38 @@
 # Advanced CSS Course
 
+## Three Pillars to Write Good HTML and CSS
+
+1. Responsive design
+1. Maintainable and scalable code
+1. Web performance
+
+### Responsive design
+
+- Fluid layouts
+- Media queries
+- Responsive images
+- Correct units
+- Desktop-first vs mobile-first
+
+### Maintainable and scalable code
+
+- Clean
+- Easy-to-understand
+- Growth
+- Reusable
+- How to organize code
+- How to name classes
+- How to structure HTML
+
+### Web performance
+
+- Less HTTP requests
+- Less code
+- Compress code
+- Use a CSS preprocessor
+- Less images
+- Compress images
+
 ## CSS Properties
 
 ### Line Height
