@@ -137,6 +137,29 @@ selector::pseudo-element {
 }
 ```
 
+### The Cascade and Specificity
+
+- Importance > Specificity > Source Order
+- Inline, IDs, Classes, Elements (0,0,0,0)
+
+### Value Processing
+
+- Declared value > Cascaded value > Specified value > Computed value > Used value> Actual value
+
+#### EM's and REM's
+
+- em are measured relative to their parent font-size, if used to specify font-size
+- em are measured relative to the current font-size, if used to specify lengths
+- rem are always measured relative to the documents root font-size
+
+### Inheritance
+
+- Inheritance passes the values for some specific properties from parents to children - more maintainable code
+- Properties related to text are inherited: font-size, font-family, color,...
+- The computed value of a property is what gets inherited, not th declared one
+- The `inherit` keyword forces inheritance on a certain property
+- The `initial` keyword resets a property to its initial value
+
 ---
 
 ## Useful Links
