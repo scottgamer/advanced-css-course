@@ -162,6 +162,102 @@ selector::pseudo-element {
 
 ---
 
+### Box Types
+
+#### Inline (display: inline)
+
+- Content distributed in lines
+- Occupies only content's space
+- No line-breaks
+- No heights and widths
+- Padding and margins only horizontal (left and right)
+
+#### Block-level (display: block)
+
+- Elements formatted visually as blocks
+- 100% of parent's width
+- Vertically, one after another
+
+#### Inline-Block (display: inline-block)
+
+- A mix of inline and block
+- Occupies only content's space
+- No line-breaks
+- Box-model applies as showed
+
+---
+
+### Positioning schemes
+
+#### Normal Flow (position: relative)
+
+- Default positioning scheme
+- Not floated
+- Not absolutely positioned
+- Elements positioned according to their source order
+
+#### Absolute Positioning (position: absolute, position: fixed)
+
+- Element is removed from the normal flow
+- No impact on surrounding content or elements
+- We use top, bottom, left, and right to offset the element from its relatively positioned container
+
+#### Floats (float: left, float: right)
+
+- Element is removed from the normal flow
+- Text and inline elements will wrap around the floated element
+- The container will not adjust its height to the element
+
+---
+
+### BEM - Block Element Modifier
+
+- Block: standalone component that is meaningful on its own
+- Element: part of a block that has no standalone meaning
+- Modifier: a different version of a block or an element
+
+```css
+.block {}
+.block__element {}
+.block__element--modifier {}
+```
+
+---
+
+### The 7-1 Pattern
+
+- 7 different folders for partial Sass files
+- 1 main Sass file to import all other files into a compiled CSS stylesheet
+
+#### The 7 folders
+
+- base/
+- components/
+- layout/
+- pages/
+- themes/
+- abstracts/
+- vendors/
+
+---
+
+### SASS
+
+- CSS pre-processor
+- Adds power and elegance to the language
+- Sass compiles to CSS
+
+#### Features
+
+- Variables: reusable values such as colors, font-sizes, spacing
+- Nesting: nest selectors inside of one another, allows to write less code
+- Operators: mathematical operators inside of CSS
+- Partials and imports: write CSS in different files and importing them all into one single file
+- Mixins: write reusable pieces of CSS code
+- Functions: similar to mixins, they produce a value than can be later used
+- Extends: make different selectors inherit declarations that are common to all of them
+- Control directives: for writing complex code using conditionals and loops
+
 ## Useful Links
 
 ### Clippy
