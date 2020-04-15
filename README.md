@@ -258,6 +258,10 @@ selector::pseudo-element {
 - Extends: make different selectors inherit declarations that are common to all of them
 - Control directives: for writing complex code using conditionals and loops
 
+#### Working with SASS
+
+- Install the package `node-sass` to compile SASS code to CSS code
+
 ## Useful Links
 
 ### Clippy
