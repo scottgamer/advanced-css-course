@@ -262,6 +262,10 @@ selector::pseudo-element {
 
 - Install the package `node-sass` to compile SASS code to CSS code
 
+```bash
+node-sass sass/main.scss css/style.css
+```
+
 ## Useful Links
 
 ### Clippy
