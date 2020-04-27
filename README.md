@@ -231,9 +231,9 @@ selector::pseudo-element {
 
 #### The 7 folders
 
-- base/
-- components/
-- layout/
+- base/ - imports all code from other files
+- components/ - independent building blocks
+- layout/ - the whole page styles (header, footer, ...)
 - pages/
 - themes/
 - abstracts/
