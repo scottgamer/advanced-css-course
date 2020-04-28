@@ -266,6 +266,28 @@ selector::pseudo-element {
 node-sass sass/main.scss css/style.css
 ```
 
+### Responsive Design Principles
+
+1. Fluid Grids and Layouts
+
+To allow content to easily adapt tp the current viewport width used to browse the website. 
+Use % rather than px for all layout-related lengths.
+
+2. Flexible/Responsive Images
+
+Images behave differently than text content.
+Ensure they adapt nicely to the current viewport.
+
+3. Media Queries
+
+Change style on certain viewport widths (breakpoints), allowing to create different versions of our website for different screen widths.
+
+#### Layout Types
+
+1. Float Layouts
+2. Flexbox
+3. CSS Grid 
+
 ## Useful Links
 
 ### Clippy
