@@ -7,7 +7,7 @@
 
   &__side {
     height: 52rem;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -15,7 +15,7 @@
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
     &--front {
       background-color: $color-white;
@@ -25,9 +25,12 @@
       transform: rotateY(180deg);
 
       &-1 {
-        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+        background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        );
       }
-
     }
   }
 
@@ -50,7 +53,12 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1 {
-        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark) url(../img/nat-5.jpg);
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        )
+        url(../img/nat-5.jpg);
     }
 
     &--2 {
@@ -72,7 +80,6 @@
     top: 12rem;
     right: 2rem;
     width: 75%;
-
   }
 
   &__heading-span {
@@ -81,15 +88,17 @@
     box-decoration-break: clone;
 
     &--1 {
-      background-image: linear-gradient(to right bottom, 
-        rgba($color-secondary-light, .85), 
-        rgba($color-secondary-dark, .85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
     }
   }
 
   &__details {
     padding: 3rem;
-    
+
     ul {
       list-style: none;
       width: 80%;
