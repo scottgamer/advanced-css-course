@@ -12,13 +12,14 @@
       rgba($color-primary-dark, 0.808)
     ),
     url("../img/nat-4.jpg");
-    background-size: cover;
-    transform: skewY(-7deg);
-    margin-top: -10rem;
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
 
-    & > * { // apply only to direct child
-      transform: skewY(7deg);
-    }
+  & > * {
+    // apply only to direct child
+    transform: skewY(7deg);
+  }
 }
 
 .section-tours {
