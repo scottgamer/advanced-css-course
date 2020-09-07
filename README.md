@@ -217,9 +217,12 @@ selector::pseudo-element {
 - Modifier: a different version of a block or an element
 
 ```css
-.block {}
-.block__element {}
-.block__element--modifier {}
+.block {
+}
+.block__element {
+}
+.block__element--modifier {
+}
 ```
 
 ---
@@ -270,7 +273,7 @@ node-sass sass/main.scss css/style.css
 
 1. Fluid Grids and Layouts
 
-To allow content to easily adapt tp the current viewport width used to browse the website. 
+To allow content to easily adapt tp the current viewport width used to browse the website.
 Use % rather than px for all layout-related lengths.
 
 2. Flexible/Responsive Images
@@ -282,14 +285,23 @@ Ensure they adapt nicely to the current viewport.
 
 Change style on certain viewport widths (breakpoints), allowing to create different versions of our website for different screen widths.
 
+#### Responsive design strategies
+
+Max width and min-width
+
+0px - 600px - 900px - 1200px - inf. ->
+
+![responsive design](Responsive-design.PNG)
+![responsive breakpoints](responsive-breakpoints.PNG)
+
+
 #### Layout Types
 
 1. Float Layouts
 2. Flexbox
-3. CSS Grid 
+3. CSS Grid
 
 ## Useful Links
 
-### Clippy
-
-Url: [https://bennettfeely.com/clippy/](https://bennettfeely.com/clippy/)
+- [Clippy](https://bennettfeely.com/clippy/)
+- [Screen Resolutions](https://gs.statcounter.com/screen-resolution-stats)
