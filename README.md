@@ -218,10 +218,13 @@ selector::pseudo-element {
 
 ```css
 .block {
+  ...;
 }
 .block__element {
+  ...;
 }
 .block__element--modifier {
+  ...;
 }
 ```
 
@@ -269,6 +272,8 @@ selector::pseudo-element {
 node-sass sass/main.scss css/style.css
 ```
 
+---
+
 ### Responsive Design Principles
 
 1. Fluid Grids and Layouts
@@ -294,6 +299,14 @@ Max width and min-width
 ![responsive design](Responsive-design.PNG)
 ![responsive breakpoints](responsive-breakpoints.PNG)
 
+#### Responsive images
+
+- The right image for the right screen
+- Avoid downloading large images on smaller screens
+
+#### When to use: The 3 use cases
+
+![responsive images](responsive-images.PNG)
 
 #### Layout Types
 
