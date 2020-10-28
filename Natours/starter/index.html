@@ -94,7 +94,32 @@
           </div>
           <div class="col-1-of-2">
             <div class="composition">
+              <!-- resolution and pixel density -->
               <img
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600) 30vw, 300px"
+                src="img/nat-1-large.jpg"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+              />
+
+              <img
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600) 30vw, 300px"
+                src="img/nat-2-large.jpg"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p2"
+              />
+
+              <img
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600) 30vw, 300px"
+                src="img/nat-3-large.jpg"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p3"
+              />
+
+              <!-- <img
                 src="img/nat-1-large.jpg"
                 alt="Photo 1"
                 class="composition__photo composition__photo--p1"
@@ -108,7 +133,7 @@
                 src="img/nat-3-large.jpg"
                 alt="Photo 3"
                 class="composition__photo composition__photo--p3"
-              />
+              /> -->
             </div>
           </div>
         </div>
@@ -429,6 +454,7 @@
           <img
             srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
             alt="Full logo"
+            src="img/logo-green-2x.png"
           />
         </picture>
         <!-- using density switching -->
@@ -436,6 +462,7 @@
           srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
           alt="Full logo"
           class="footer__logo"
+          src="img/logo-green-2x.png"
         /> -->
       </div>
       <div class="row">
