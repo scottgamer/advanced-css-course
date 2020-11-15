@@ -318,3 +318,15 @@ Max width and min-width
 
 - [Clippy](https://bennettfeely.com/clippy/)
 - [Screen Resolutions](https://gs.statcounter.com/screen-resolution-stats)
+
+## FlexBox
+
+- The main idea is to give the container the ability to expand and shrink elements to use all availbale space
+- Replaces float layouts, using less and more readable code
+
+### Flexbox Concepts
+
+![flexbox concepts](flexbox-concepts.PNG)
+
+### Flexbox Properties
+![flexbox properties](flexbox-properties.PNG)
